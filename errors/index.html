@@ -9,7 +9,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width,user-scalable=no,initial-scale=1,maximum-scale=1">
     <meta http-equiv="X-UA-Compatible" content="IE=10" />
-    <title>Material Docs</title>
+    <title>Errors - Material Docs</title>
     <meta name="generator" content="Hugo 0.25.1" />
 
     
@@ -20,7 +20,7 @@
     <meta name="author" content="Digitalcraftsman">
     
 
-    <meta property="og:url" content="localhost:1313/">
+    <meta property="og:url" content="localhost:1313/errors/">
     <meta property="og:title" content="Material Docs">
     <meta property="og:image" content="localhost:1313">
     <meta name="apple-mobile-web-app-title" content="Material Docs">
@@ -69,9 +69,6 @@
     <script src="#ZgotmplZ"></script>
 
     
-    <link href="localhost:1313/index.xml" rel="alternate" type="application/rss+xml" title="Material Docs" />
-    <link href="localhost:1313/index.xml" rel="feed" type="application/rss+xml" title="Material Docs" />
-    
 
   </head>
   <body class="palette-primary-red palette-accent-teal">
@@ -100,7 +97,7 @@
     </div>
     <div class="stretch">
       <div class="title">
-        Material Docs
+        Errors
       </div>
     </div>
 
@@ -302,56 +299,82 @@
 
 	<article class="article">
 		<div class="wrapper">
-			
-				<h1>Game Development and Design Guidebook </h1>
-
-				
-
-<h2 id="introduction">Introduction</h2>
-
-<p>This is a guidebook on how to make video games. The main idea behind this guidebook is to provide a framework for creating interactive ideas to those either completely new to game development or people lookgin to refine their development process.
-In this guidebook we use <a href="http://godotengine.org">Godot</a>, <a href="https://gimp.org">GIMP</a> and <a href="https://lmms.io">LMMS</a> primarily, but you could easily follow along with replacements that cover the same topic.</p>
-
-<p>All of the software we use in this guidebook is open source and free of charge.</p>
-
-<h2 id="quick-start-for-windows">Quick start for Windows</h2>
-
-<p>Go to each of the following links and download the .exe file.</p>
-
-<p><a href="https://downloads.tuxfamily.org/godotengine/2.1.3/Godot_v2.1.3-stable_win64.exe.zip">Godot 64 Bits</a></p>
-
-<p><a href="https://downloads.tuxfamily.org/godotengine/2.1.3/Godot_v2.1.3-stable_win32.exe.zip">Godot 32 Bits</a></p>
-
-<p><a href="https://download.gimp.org/mirror/pub/gimp/v2.8/windows/gimp-2.8.22-setup.exe">GIMP</a></p>
-
-<p><a href="https://github.com/LMMS/lmms/releases/download/v1.1.3/lmms-1.1.3-win64.exe">LMMS 64 Bits</a></p>
-
-<p><a href="https://github.com/LMMS/lmms/releases/download/v1.1.3/lmms-1.1.3-win32.exe">LMMS 32 Bits</a></p>
-
-<h2 id="where-to-go-from-here">Where to go from here?</h2>
-
-<p>If you are not yet familiar with all software we&rsquo;ve mentioned, I advise you start at <a href="section_i/the_computer">The Computer</a>
-The best place to start would be the page: Capturing an Idea.</p>
-
-<h2 id="what-is-godot">What is Godot?</h2>
-
-<h3 id="game-engine">Game Engine</h3>
-
-<p>Godot is the piece of software that will allow us to strap together any of our created assets, such as music, animations, sound effects etc.</p>
-
-<h2 id="what-is-gimp">What is GIMP</h2>
-
-<h3 id="2d-drawing-software">2D Drawing Software</h3>
-
-<p>GIMP is a piece of software that allows us to layer drawings and arrange pixels to create drawings of characters, foliage and special effects.</p>
-
-<h2 id="what-is-lmms">What is LMMS</h2>
-
-<h3 id="linux-multi-media-studio-music-sfx-software">(Linux Multi-Media Studio) : Music + SFX Software</h3>
-
-<p>LMMS lets us arrange music and generate multi-layered sound effects that can be automatically imported by Godot.</p>
+			<h1>Errors </h1>
 
 			
+
+<h1 id="errors">Errors</h1>
+
+<aside class="notice">This error section is stored in a separate file, errors.md. DocuAPI allows you to split the single page documentation in as many files as needed. Files are included in the  default Hugo page order . One way of ordering the pages is by setting the page `weight` in the front matter. Pages with lower weight will be listed first.</aside>
+
+<p>The Kittn API uses the following error codes:</p>
+
+<table>
+<thead>
+<tr>
+<th>Error Code</th>
+<th>Meaning</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td>400</td>
+<td>Bad Request &ndash; Your request sucks</td>
+</tr>
+
+<tr>
+<td>401</td>
+<td>Unauthorized &ndash; Your API key is wrong</td>
+</tr>
+
+<tr>
+<td>403</td>
+<td>Forbidden &ndash; The kitten requested is hidden for administrators only</td>
+</tr>
+
+<tr>
+<td>404</td>
+<td>Not Found &ndash; The specified kitten could not be found</td>
+</tr>
+
+<tr>
+<td>405</td>
+<td>Method Not Allowed &ndash; You tried to access a kitten with an invalid method</td>
+</tr>
+
+<tr>
+<td>406</td>
+<td>Not Acceptable &ndash; You requested a format that isn&rsquo;t json</td>
+</tr>
+
+<tr>
+<td>410</td>
+<td>Gone &ndash; The kitten requested has been removed from our servers</td>
+</tr>
+
+<tr>
+<td>418</td>
+<td>I&rsquo;m a teapot</td>
+</tr>
+
+<tr>
+<td>429</td>
+<td>Too Many Requests &ndash; You&rsquo;re requesting too many kittens! Slow down!</td>
+</tr>
+
+<tr>
+<td>500</td>
+<td>Internal Server Error &ndash; We had a problem with our server. Try again later.</td>
+</tr>
+
+<tr>
+<td>503</td>
+<td>Service Unavailable &ndash; We&rsquo;re temporarially offline for maintanance. Please try again later.</td>
+</tr>
+</tbody>
+</table>
+
 
 			<aside class="copyright" role="note">
 				
@@ -366,23 +389,37 @@ The best place to start would be the page: Capturing an Idea.</p>
 			<footer class="footer">
 				
 
-
-
 <nav class="pagination" aria-label="Footer">
   <div class="previous">
+  
+      <a href="#ZgotmplZ" title="Adding content">
+        <span class="direction">
+          Previous
+        </span>
+        <div class="page">
+          <div class="button button-previous" role="button" aria-label="Previous">
+            <i class="icon icon-back"></i>
+          </div>
+          <div class="stretch">
+            <div class="title">
+              Adding content
+            </div>
+          </div>
+        </div>
+      </a>
+  
   </div>
 
-  
-  
   <div class="next">
-      <a href="#ZgotmplZ" title="Categories">
+  
+      <a href="#ZgotmplZ" title="Game Development and Design Guidebook">
         <span class="direction">
           Next
         </span>
         <div class="page">
           <div class="stretch">
             <div class="title">
-              Categories
+              Game Development and Design Guidebook
             </div>
           </div>
           <div class="button button-next" role="button" aria-label="Next">
@@ -390,8 +427,11 @@ The best place to start would be the page: Capturing an Idea.</p>
           </div>
         </div>
       </a>
+  
   </div>
 </nav>
+
+
 
 
 
