@@ -9,18 +9,18 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width,user-scalable=no,initial-scale=1,maximum-scale=1">
     <meta http-equiv="X-UA-Compatible" content="IE=10" />
-    <title>Adding content - Game Dev Guide</title>
+    <title>Creating a Main Menu Screen - Game Dev Guide</title>
     <meta name="generator" content="Hugo 0.25.1" />
 
     
     <meta name="description" content="A Game Development Guidebook.">
     
-    <link rel="canonical" href="jwStevens.github.io/adding-content/">
+    <link rel="canonical" href="jwStevens.github.io/main_menu_screen/">
     
     <meta name="author" content="Jed Stevens">
     
 
-    <meta property="og:url" content="jwStevens.github.io/adding-content/">
+    <meta property="og:url" content="jwStevens.github.io/main_menu_screen/">
     <meta property="og:title" content="Game Dev Guide">
     <meta property="og:image" content="jwStevens.github.io/images/logo.png">
     <meta name="apple-mobile-web-app-title" content="Game Dev Guide">
@@ -96,7 +96,7 @@
     </div>
     <div class="stretch">
       <div class="title">
-        Adding content
+        Creating a Main Menu Screen
       </div>
     </div>
 
@@ -244,63 +244,37 @@
 
 	<article class="article">
 		<div class="wrapper">
-			<h1>Adding content </h1>
+			<h1>Creating a Main Menu Screen  (Draft)</h1>
 
 			
 
-<h2 id="hello-world">Hello world</h2>
+<h2 id="overview">Overview</h2>
 
-<p>Let&rsquo;s create our first content file for your documentation. Open a terminal and add the following command for each new file you want to add. Replace <code>&lt;section-name&gt;</code> with a general term that describes your document in detail.</p>
+<p>We are going to look into the code of the Dreamlight menu screen and I will show
+you how to:</p>
 
-<pre><code class="language-sh">hugo new &lt;section-name&gt;/filename.md
-</code></pre>
+<ol>
+<li>Make a title graphic</li>
+<li>Start a GUI Theme, using buttons</li>
+<li>Change the current scene to another.</li>
+<li>Move the camera&rsquo;s target</li>
+</ol>
 
-<p>Visitors of your website will find the final document under <code>www.example.com/&lt;section-name&gt;/filename/</code>.</p>
+<h2 id="requirements">Requirements</h2>
 
-<p>Since it&rsquo;s possible to have multiple content files in the same section I recommend to create at least one <code>index.md</code> file per section. This ensures that users will find an index page under <code>www.example.com/&lt;section-name&gt;</code>.</p>
+<p>This is probably the first time you&rsquo;re going to be exposed to extra downloads, but they will be denoted as such : <code>git clone https://github.com/jedStevens/&lt;repository&gt;</code></p>
 
-<h2 id="homepage">Homepage</h2>
+<p>You can copy and paste the command above into your terminal to downlad the repository.</p>
 
-<p>To add content to the homepage you need to add a small indicator to the frontmatter of the content file:</p>
+<p>For example in this lesson we will need a Camera, and I&rsquo;ve linked you to my SuperCamera2D, which contains fun features like camera shake, fade transitions and automatic targeting.</p>
 
-<pre><code class="language-toml">type: index
-</code></pre>
+<p><code>git clone https://github.com/jedStevens/supercamera2d</code></p>
 
-<p>Otherwise the theme will not be able to find the corresponding content file.</p>
+<p>Go ahead and download this repository by copying and pasting the command above and running it in a terminal.</p>
 
-<h2 id="table-of-contents">Table of contents</h2>
+<p><strong>OR</strong></p>
 
-<p>You maybe noticed that the menu on the left contains a small table of contents of the current page. All <code>&lt;h2&gt;</code> tags (<code>## Headline</code> in Markdown) will be added automatically.</p>
-
-<h2 id="admonitions">Admonitions</h2>
-
-<p>Admonition is a handy feature that adds block-styled side content to your documentation, for example hints, notes or warnings. It can be enabled by using the corresponding <a href="http://gohugo.io/extras/shortcodes/">shortcodes</a> inside your content:</p>
-
-<pre><code class="language-go">{{&lt; note title=&quot;Note&quot; &gt;}}
-Nothing to see here, move along.
-{{&lt; /note &gt;}}
-</code></pre>
-
-<p>This will print the following block:</p>
-
-<div class="admonition note">
-<p class="admonition-title">Note</p>
-<p>Nothing to see here, move along.</p>
-</div>
-
-<p>The shortcode adds a neutral color for the note class and a red color for the warning class. You can also add a custom title:</p>
-
-<pre><code class="language-go">{{&lt; warning title=&quot;Don't try this at home&quot; &gt;}}
-Nothing to see here, move along.
-{{&lt; /warning &gt;}}
-</code></pre>
-
-<p>This will print the following block:</p>
-
-<div class="admonition warning">
-<p class="admonition-title">Don&#39;t try this at home</p>
-<p>Nothing to see here, move along.</p>
-</div>
+<p>Go to that web page, download the repository as a zip and extract it to</p>
 
 
 			<aside class="copyright" role="note">
@@ -319,7 +293,7 @@ Nothing to see here, move along.
 <nav class="pagination" aria-label="Footer">
   <div class="previous">
   
-      <a href="jwStevens.github.io/getting-started/" title="Getting started">
+      <a href="jwStevens.github.io/errors/" title="Errors">
         <span class="direction">
           Previous
         </span>
@@ -329,7 +303,7 @@ Nothing to see here, move along.
           </div>
           <div class="stretch">
             <div class="title">
-              Getting started
+              Errors
             </div>
           </div>
         </div>
@@ -339,14 +313,14 @@ Nothing to see here, move along.
 
   <div class="next">
   
-      <a href="jwStevens.github.io/errors/" title="Errors">
+      <a href="jwStevens.github.io/creating_your_first_game/" title="Creating Your First Game">
         <span class="direction">
           Next
         </span>
         <div class="page">
           <div class="stretch">
             <div class="title">
-              Errors
+              Creating Your First Game
             </div>
           </div>
           <div class="button button-next" role="button" aria-label="Next">

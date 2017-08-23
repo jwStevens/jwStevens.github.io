@@ -9,18 +9,18 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width,user-scalable=no,initial-scale=1,maximum-scale=1">
     <meta http-equiv="X-UA-Compatible" content="IE=10" />
-    <title>Adding content - Game Dev Guide</title>
+    <title>The Computer - Game Dev Guide</title>
     <meta name="generator" content="Hugo 0.25.1" />
 
     
     <meta name="description" content="A Game Development Guidebook.">
     
-    <link rel="canonical" href="jwStevens.github.io/adding-content/">
+    <link rel="canonical" href="jwStevens.github.io/the_computer/">
     
     <meta name="author" content="Jed Stevens">
     
 
-    <meta property="og:url" content="jwStevens.github.io/adding-content/">
+    <meta property="og:url" content="jwStevens.github.io/the_computer/">
     <meta property="og:title" content="Game Dev Guide">
     <meta property="og:image" content="jwStevens.github.io/images/logo.png">
     <meta name="apple-mobile-web-app-title" content="Game Dev Guide">
@@ -96,7 +96,7 @@
     </div>
     <div class="stretch">
       <div class="title">
-        Adding content
+        The Computer
       </div>
     </div>
 
@@ -179,11 +179,14 @@
 
 
 
-<a  title="The Computer" href="jwStevens.github.io/the_computer/">
+<a class="current" title="The Computer" href="jwStevens.github.io/the_computer/">
 	
 	The Computer
 </a>
 
+
+<ul id="scrollspy">
+</ul>
 
 
   
@@ -244,63 +247,57 @@
 
 	<article class="article">
 		<div class="wrapper">
-			<h1>Adding content </h1>
+			<h1>The Computer  (Draft)</h1>
 
 			
 
-<h2 id="hello-world">Hello world</h2>
+<h1 id="the-computer">The Computer</h1>
 
-<p>Let&rsquo;s create our first content file for your documentation. Open a terminal and add the following command for each new file you want to add. Replace <code>&lt;section-name&gt;</code> with a general term that describes your document in detail.</p>
+<p><em>An artistic tool</em></p>
 
-<pre><code class="language-sh">hugo new &lt;section-name&gt;/filename.md
-</code></pre>
+<p>Many people believe that computers are machines that are too complex to be considered an art. There are also people who embrace computers in many ways to enhance their art. The way we will use a computer is for the creation of digital content, then strapped together with code.</p>
 
-<p>Visitors of your website will find the final document under <code>www.example.com/&lt;section-name&gt;/filename/</code>.</p>
+<h2 id="the-absolute-basics">The Absolute Basics</h2>
 
-<p>Since it&rsquo;s possible to have multiple content files in the same section I recommend to create at least one <code>index.md</code> file per section. This ensures that users will find an index page under <code>www.example.com/&lt;section-name&gt;</code>.</p>
+<p>This section is considered the absolute minimum of understanding to following this book; if you have trouble grasping these, you&rsquo;re going ot have a hard time.</p>
 
-<h2 id="homepage">Homepage</h2>
+<h3 id="the-keyboard-mouse">The Keyboard / Mouse</h3>
 
-<p>To add content to the homepage you need to add a small indicator to the frontmatter of the content file:</p>
+<p>This is your form of input. These two devices shouldn&rsquo;t require too much explaining, however learning proper typing would aid you, albeit not needed.</p>
 
-<pre><code class="language-toml">type: index
-</code></pre>
+<p>I will not refer to the windows button as &ldquo;The Windows Button&rdquo; and from here on will be denoted as &ldquo;The Super Key&rdquo; or &ldquo;super&rdquo;. This is for my own insanity.</p>
 
-<p>Otherwise the theme will not be able to find the corresponding content file.</p>
+<p>You will require the keyboard as shortcuts are in every software and will help you work muich faster than with just a mouse or on some touch device.</p>
 
-<h2 id="table-of-contents">Table of contents</h2>
+<p>The keys you may not know that aren&rsquo;t the letters and numbers are:</p>
 
-<p>You maybe noticed that the menu on the left contains a small table of contents of the current page. All <code>&lt;h2&gt;</code> tags (<code>## Headline</code> in Markdown) will be added automatically.</p>
+<ul>
+<li>Control / ctrl</li>
+<li>Alt / alt</li>
+<li>Shift / shift</li>
+<li>F1-F12</li>
+<li>Backspace vs Delete</li>
+<li>Forward Slash, Backward Slash, Pipe</li>
+<li>Math symbols: <code>+ - * /</code></li>
+</ul>
 
-<h2 id="admonitions">Admonitions</h2>
+<p>A standard mouse will have 3 buttons:</p>
 
-<p>Admonition is a handy feature that adds block-styled side content to your documentation, for example hints, notes or warnings. It can be enabled by using the corresponding <a href="http://gohugo.io/extras/shortcodes/">shortcodes</a> inside your content:</p>
+<ul>
+<li>Left Mouse Button / LMB</li>
+<li>Middle Mouse Button / MMB</li>
+<li>Right Mouse Button / RMB</li>
+</ul>
 
-<pre><code class="language-go">{{&lt; note title=&quot;Note&quot; &gt;}}
-Nothing to see here, move along.
-{{&lt; /note &gt;}}
-</code></pre>
+<p>You also need to know how to make folders and navigate in a file browser, I will teach you how to use a terminal if you wish, you&rsquo;ll be a lot faster this way.</p>
 
-<p>This will print the following block:</p>
+<h3 id="the-monitor-screen">The Monitor / Screen</h3>
 
-<div class="admonition note">
-<p class="admonition-title">Note</p>
-<p>Nothing to see here, move along.</p>
-</div>
+<p>The monitor is the most important feedback for a computer user. As a game developer it is key to note what resolution your monitor is. A standard monitor is <code>1920x1080</code>.</p>
 
-<p>The shortcode adds a neutral color for the note class and a red color for the warning class. You can also add a custom title:</p>
+<p>A monitor operates differently than a cartesian graph, in that downwards (to the bottom edge), is positive Y.</p>
 
-<pre><code class="language-go">{{&lt; warning title=&quot;Don't try this at home&quot; &gt;}}
-Nothing to see here, move along.
-{{&lt; /warning &gt;}}
-</code></pre>
-
-<p>This will print the following block:</p>
-
-<div class="admonition warning">
-<p class="admonition-title">Don&#39;t try this at home</p>
-<p>Nothing to see here, move along.</p>
-</div>
+<p>If you don&rsquo;t understand things like resolution, cartesian graphs or pixel; checkout the Understanding Coordinate Systems. You don&rsquo;t need to read this now, but if you can manage, it would help.</p>
 
 
 			<aside class="copyright" role="note">
@@ -319,7 +316,7 @@ Nothing to see here, move along.
 <nav class="pagination" aria-label="Footer">
   <div class="previous">
   
-      <a href="jwStevens.github.io/getting-started/" title="Getting started">
+      <a href="jwStevens.github.io/spritesheets/" title="Creating a Spritesheet">
         <span class="direction">
           Previous
         </span>
@@ -329,7 +326,7 @@ Nothing to see here, move along.
           </div>
           <div class="stretch">
             <div class="title">
-              Getting started
+              Creating a Spritesheet
             </div>
           </div>
         </div>
@@ -339,14 +336,14 @@ Nothing to see here, move along.
 
   <div class="next">
   
-      <a href="jwStevens.github.io/errors/" title="Errors">
+      <a href="jwStevens.github.io/" title="Game Development and Design Guidebook">
         <span class="direction">
           Next
         </span>
         <div class="page">
           <div class="stretch">
             <div class="title">
-              Errors
+              Game Development and Design Guidebook
             </div>
           </div>
           <div class="button button-next" role="button" aria-label="Next">

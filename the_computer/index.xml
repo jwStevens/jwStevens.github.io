@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>The_computers on Game Dev Guide</title>
+    <link>jwStevens.github.io/the_computer/</link>
+    <description>Recent content in The_computers on Game Dev Guide</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Released under the MIT license</copyright>
+    <lastBuildDate>Tue, 15 Aug 2017 09:58:36 -0400</lastBuildDate>
+    
+	<atom:link href="jwStevens.github.io/the_computer/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>The Computer</title>
+      <link>jwStevens.github.io/the_computer/</link>
+      <pubDate>Tue, 15 Aug 2017 09:58:36 -0400</pubDate>
+      
+      <guid>jwStevens.github.io/the_computer/</guid>
+      <description>The Computer An artistic tool
+Many people believe that computers are machines that are too complex to be considered an art. There are also people who embrace computers in many ways to enhance their art. The way we will use a computer is for the creation of digital content, then strapped together with code.
+The Absolute Basics This section is considered the absolute minimum of understanding to following this book; if you have trouble grasping these, you&amp;rsquo;re going ot have a hard time.</description>
+    </item>
+    
+  </channel>
+</rss>

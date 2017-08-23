@@ -1,23 +1,23 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Material Docs</title>
-    <link>localhost:1313/</link>
-    <description>Recent content on Material Docs</description>
+    <title>Game Dev Guide</title>
+    <link>jwStevens.github.io/</link>
+    <description>Recent content on Game Dev Guide</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Released under the MIT license</copyright>
     <lastBuildDate>Wed, 09 Mar 2016 00:11:02 +0100</lastBuildDate>
     
-	<atom:link href="localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="jwStevens.github.io/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Getting started</title>
-      <link>localhost:1313/getting-started/</link>
+      <link>jwStevens.github.io/getting-started/</link>
       <pubDate>Wed, 09 Mar 2016 00:11:02 +0100</pubDate>
       
-      <guid>localhost:1313/getting-started/</guid>
+      <guid>jwStevens.github.io/getting-started/</guid>
       <description>Installation Installing Hugo Hugo itself is just a single binary without dependencies on expensive runtimes like Ruby, Python or PHP and without dependencies on any databases. You just need to download the latest version. For more information read the official installation guides.
 Let&amp;rsquo;s make sure Hugo is set up as expected. You should see a similar version number in your terminal:
 hugo version # Hugo Static Site Generator v0.15 BuildDate: 2016-01-03T12:47:47+01:00  Installing Material Next, assuming you have Hugo up and running the hugo-material-docs theme can be installed with git:</description>
@@ -25,10 +25,10 @@ hugo version # Hugo Static Site Generator v0.15 BuildDate: 2016-01-03T12:47:47+0
     
     <item>
       <title>Adding content</title>
-      <link>localhost:1313/adding-content/</link>
+      <link>jwStevens.github.io/adding-content/</link>
       <pubDate>Wed, 09 Mar 2016 19:56:50 +0100</pubDate>
       
-      <guid>localhost:1313/adding-content/</guid>
+      <guid>jwStevens.github.io/adding-content/</guid>
       <description>Hello world Let&amp;rsquo;s create our first content file for your documentation. Open a terminal and add the following command for each new file you want to add. Replace &amp;lt;section-name&amp;gt; with a general term that describes your document in detail.
 hugo new &amp;lt;section-name&amp;gt;/filename.md  Visitors of your website will find the final document under www.example.com/&amp;lt;section-name&amp;gt;/filename/.
 Since it&amp;rsquo;s possible to have multiple content files in the same section I recommend to create at least one index.</description>
@@ -36,20 +36,68 @@ Since it&amp;rsquo;s possible to have multiple content files in the same section
     
     <item>
       <title>Errors</title>
-      <link>localhost:1313/errors/</link>
+      <link>jwStevens.github.io/errors/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>localhost:1313/errors/</guid>
+      <guid>jwStevens.github.io/errors/</guid>
       <description>Errors This error section is stored in a separate file, errors.md. DocuAPI allows you to split the single page documentation in as many files as needed. Files are included in the default Hugo page order . One way of ordering the pages is by setting the page `weight` in the front matter. Pages with lower weight will be listed first. The Kittn API uses the following error codes:
    Error Code Meaning     400 Bad Request &amp;ndash; Your request sucks   401 Unauthorized &amp;ndash; Your API key is wrong   403 Forbidden &amp;ndash; The kitten requested is hidden for administrators only   404 Not Found &amp;ndash; The specified kitten could not be found   405 Method Not Allowed &amp;ndash; You tried to access a kitten with an invalid method   406 Not Acceptable &amp;ndash; You requested a format that isn&amp;rsquo;t json   410 Gone &amp;ndash; The kitten requested has been removed from our servers   418 I&amp;rsquo;m a teapot   429 Too Many Requests &amp;ndash; You&amp;rsquo;re requesting too many kittens!</description>
     </item>
     
     <item>
+      <title>Creating a Main Menu Screen</title>
+      <link>jwStevens.github.io/main_menu_screen/</link>
+      <pubDate>Wed, 16 Aug 2017 13:18:46 -0400</pubDate>
+      
+      <guid>jwStevens.github.io/main_menu_screen/</guid>
+      <description>Overview We are going to look into the code of the Dreamlight menu screen and I will show you how to:
+ Make a title graphic Start a GUI Theme, using buttons Change the current scene to another. Move the camera&amp;rsquo;s target  Requirements This is probably the first time you&amp;rsquo;re going to be exposed to extra downloads, but they will be denoted as such : git clone https://github.com/jedStevens/&amp;lt;repository&amp;gt;</description>
+    </item>
+    
+    <item>
+      <title>Creating Your First Game</title>
+      <link>jwStevens.github.io/creating_your_first_game/</link>
+      <pubDate>Tue, 15 Aug 2017 11:30:25 -0400</pubDate>
+      
+      <guid>jwStevens.github.io/creating_your_first_game/</guid>
+      <description>Okay.
+This is your first game.
+Don&amp;rsquo;t go crazy with it, but pick something that sounds kind of cool.
+Whatever you choose, stick with it. It will pay off.
+Case Studies While thinking of what you want to make, look at these case studies.
+Jed | age:22 Dreamlight, 3 Days Unfortunately this was not my first game, but rather to showcase where your skill could end up with a few years of practice, as well as this was the first game I made while also following this guide.</description>
+    </item>
+    
+    <item>
+      <title>Creating a Spritesheet</title>
+      <link>jwStevens.github.io/spritesheets/</link>
+      <pubDate>Tue, 15 Aug 2017 11:30:25 -0400</pubDate>
+      
+      <guid>jwStevens.github.io/spritesheets/</guid>
+      <description>The Goal The goal of this tutorial is to teach you how to make animations.
+What is a Spritesheet? Below is a sprite sheet for a character called an &amp;ldquo;Ember Demon&amp;rdquo;
+Now I know that this may look like 4 demons next to each other but it is intended to be one character.
+I&amp;rsquo;ve labeled some areas to take note of.
+The first would be the blue numbers. This is the frame number at each frame.</description>
+    </item>
+    
+    <item>
+      <title>The Computer</title>
+      <link>jwStevens.github.io/the_computer/</link>
+      <pubDate>Tue, 15 Aug 2017 09:58:36 -0400</pubDate>
+      
+      <guid>jwStevens.github.io/the_computer/</guid>
+      <description>The Computer An artistic tool
+Many people believe that computers are machines that are too complex to be considered an art. There are also people who embrace computers in many ways to enhance their art. The way we will use a computer is for the creation of digital content, then strapped together with code.
+The Absolute Basics This section is considered the absolute minimum of understanding to following this book; if you have trouble grasping these, you&amp;rsquo;re going ot have a hard time.</description>
+    </item>
+    
+    <item>
       <title>Game Development and Design Guidebook</title>
-      <link>localhost:1313/</link>
+      <link>jwStevens.github.io/</link>
       <pubDate>Tue, 08 Mar 2016 21:07:13 +0100</pubDate>
       
-      <guid>localhost:1313/</guid>
+      <guid>jwStevens.github.io/</guid>
       <description>Introduction This is a guidebook on how to make video games. The main idea behind this guidebook is to provide a framework for creating interactive ideas to those either completely new to game development or people lookgin to refine their development process. In this guidebook we use Godot, GIMP and LMMS primarily, but you could easily follow along with replacements that cover the same topic.
 All of the software we use in this guidebook is open source and free of charge.</description>
     </item>

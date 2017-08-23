@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Creating_your_first_games on Game Dev Guide</title>
+    <link>jwStevens.github.io/creating_your_first_game/</link>
+    <description>Recent content in Creating_your_first_games on Game Dev Guide</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Released under the MIT license</copyright>
+    <lastBuildDate>Tue, 15 Aug 2017 11:30:25 -0400</lastBuildDate>
+    
+	<atom:link href="jwStevens.github.io/creating_your_first_game/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Creating Your First Game</title>
+      <link>jwStevens.github.io/creating_your_first_game/</link>
+      <pubDate>Tue, 15 Aug 2017 11:30:25 -0400</pubDate>
+      
+      <guid>jwStevens.github.io/creating_your_first_game/</guid>
+      <description>Okay.
+This is your first game.
+Don&amp;rsquo;t go crazy with it, but pick something that sounds kind of cool.
+Whatever you choose, stick with it. It will pay off.
+Case Studies While thinking of what you want to make, look at these case studies.
+Jed | age:22 Dreamlight, 3 Days Unfortunately this was not my first game, but rather to showcase where your skill could end up with a few years of practice, as well as this was the first game I made while also following this guide.</description>
+    </item>
+    
+  </channel>
+</rss>

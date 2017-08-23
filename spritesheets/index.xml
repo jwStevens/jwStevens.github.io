@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Spritesheets on Game Dev Guide</title>
+    <link>jwStevens.github.io/spritesheets/</link>
+    <description>Recent content in Spritesheets on Game Dev Guide</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Released under the MIT license</copyright>
+    <lastBuildDate>Tue, 15 Aug 2017 11:30:25 -0400</lastBuildDate>
+    
+	<atom:link href="jwStevens.github.io/spritesheets/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Creating a Spritesheet</title>
+      <link>jwStevens.github.io/spritesheets/</link>
+      <pubDate>Tue, 15 Aug 2017 11:30:25 -0400</pubDate>
+      
+      <guid>jwStevens.github.io/spritesheets/</guid>
+      <description>The Goal The goal of this tutorial is to teach you how to make animations.
+What is a Spritesheet? Below is a sprite sheet for a character called an &amp;ldquo;Ember Demon&amp;rdquo;
+Now I know that this may look like 4 demons next to each other but it is intended to be one character.
+I&amp;rsquo;ve labeled some areas to take note of.
+The first would be the blue numbers. This is the frame number at each frame.</description>
+    </item>
+    
+  </channel>
+</rss>

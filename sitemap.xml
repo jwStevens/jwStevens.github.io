@@ -3,49 +3,93 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>localhost:1313/getting-started/</loc>
+    <loc>jwStevens.github.io/getting-started/</loc>
     <lastmod>2016-03-09T00:11:02+01:00</lastmod>
   </url>
   
   <url>
-    <loc>localhost:1313/adding-content/</loc>
+    <loc>jwStevens.github.io/adding-content/</loc>
     <lastmod>2016-03-09T19:56:50+01:00</lastmod>
   </url>
   
   <url>
-    <loc>localhost:1313/errors/</loc>
+    <loc>jwStevens.github.io/errors/</loc>
   </url>
   
   <url>
-    <loc>localhost:1313/</loc>
+    <loc>jwStevens.github.io/main_menu_screen/</loc>
+    <lastmod>2017-08-16T13:18:46-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>jwStevens.github.io/creating_your_first_game/</loc>
+    <lastmod>2017-08-15T11:30:25-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>jwStevens.github.io/spritesheets/</loc>
+    <lastmod>2017-08-15T11:30:25-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>jwStevens.github.io/the_computer/</loc>
+    <lastmod>2017-08-15T09:58:36-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>jwStevens.github.io/</loc>
     <lastmod>2016-03-08T21:07:13+01:00</lastmod>
   </url>
   
   <url>
-    <loc>localhost:1313/adding-content/</loc>
+    <loc>jwStevens.github.io/adding-content/</loc>
     <lastmod>2016-03-09T19:56:50+01:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>localhost:1313/categories/</loc>
+    <loc>jwStevens.github.io/categories/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>localhost:1313/getting-started/</loc>
+    <loc>jwStevens.github.io/creating_your_first_game/</loc>
+    <lastmod>2017-08-15T11:30:25-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>jwStevens.github.io/</loc>
     <lastmod>2016-03-09T00:11:02+01:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>localhost:1313/</loc>
+    <loc>jwStevens.github.io/getting-started/</loc>
     <lastmod>2016-03-09T00:11:02+01:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>localhost:1313/tags/</loc>
+    <loc>jwStevens.github.io/main_menu_screen/</loc>
+    <lastmod>2017-08-16T13:18:46-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>jwStevens.github.io/spritesheets/</loc>
+    <lastmod>2017-08-15T11:30:25-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>jwStevens.github.io/tags/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>jwStevens.github.io/the_computer/</loc>
+    <lastmod>2017-08-15T09:58:36-04:00</lastmod>
     <priority>0</priority>
   </url>
   
